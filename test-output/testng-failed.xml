@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="PageObject.Desktop_Paging_POM">
+        <methods>
+          <include name="TC_02_Sort_Z_to_A"/>
+          <include name="afterClas"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- PageObject.Desktop_Paging_POM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
